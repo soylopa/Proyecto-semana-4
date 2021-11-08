@@ -21,6 +21,8 @@ nav {
 
 #logo {
     width: 17%;
+    padding-left: 9%;
+    padding-top: 3%;
 }
 
 .nav-bar img{
@@ -40,10 +42,24 @@ header h1 {
     position: absolute;
     top: 35%;
     right: 22%;
-    color: 4A4A;
+    color: #4A4A4a;
     font-size: 60pt;
 }
+li {
+    padding: 6%;
+    list-style: none;
+    text-decoration: none;
+}
+.icon {
+    display: flex;
+    width: 50%;
+    padding: 10%;
+}
 
+h3{
+    font-size: 22pt;
+    color: #9f9f9f;
+}
 .rooms {
     display: flex;
     
@@ -52,7 +68,30 @@ header h1 {
     width: 20%;
 }
 
-.rooms h2 {
+/*.rooms h2 {
     position: absolute;
+    left: 6%;
 
+}*/
+.img-right {
+    width: 35%;
+
+    object-fit: cover;
+    object-position: left center;
+}
+
+.description {
+    padding-left: 7%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.text-left{
+    width: 33%;
+    letter-spacing: 12%;
+    line-height: 180%;
+    font-weight: bolder;
+    color: #4A4A4a;
 }
